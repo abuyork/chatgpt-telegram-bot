@@ -42,7 +42,7 @@
         "function_unavailable_in_inline_mode": "This function is unavailable in inline mode"
     },
     "uz": {
-        "reset_description":"Reset the conversation.",
+        "reset_description":"Suhbatni qayta boshlash.",
         "image_description":"Rasm yaratish (ex : /image mushuk)",
         "stats_description":"Foydalanish statistikasini oling",
         "resend_description":"Oxirgi xabarni qayta yuboring",
