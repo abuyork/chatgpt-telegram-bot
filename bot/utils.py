@@ -207,7 +207,7 @@ def get_user_budget(config, user_id) -> float | None:
     if is_admin(config, user_id) or config['user_budgets'] == '*':
         return float('inf')
 
-    user_budgets = config['user_budgets'].split(',')
+    user_budgets = config['user_budgets'].split('*')
     if config['allowed_user_ids'] == '*':
         # same budget for all users, use value in first position of budget list
         if len(user_budgets) > 1:
